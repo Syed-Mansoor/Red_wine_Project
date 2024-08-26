@@ -7,7 +7,7 @@ import joblib
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
-from typing import Any
+# from typing import Any
 
 
 
@@ -85,7 +85,7 @@ def load_json(path: Path) -> ConfigBox:
 
 
 @ensure_annotations
-def save_bin(data: Any, path: Path):
+def save_bin(data, path: Path):
     """save binary file
 
     Args:
@@ -97,7 +97,7 @@ def save_bin(data: Any, path: Path):
 
 
 @ensure_annotations
-def load_bin(path: Path) -> Any:
+def load_bin(path: Path) :
     """load binary data
 
     Args:
