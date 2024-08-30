@@ -1,0 +1,102 @@
+/* General styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Masthead styling */
+.masthead {
+  padding: 10rem 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+.site-heading h1 {
+  font-size: 3.25rem;
+  margin-bottom: 0;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 0.25rem;
+}
+
+/* Form page styling */
+.form-page {
+  padding: 4rem 0;
+}
+
+.form-v9-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-detail h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+}
+
+.form-row {
+  margin-bottom: 1.25rem;
+}
+
+.form-row label {
+  font-weight: 600;
+  color: #555;
+}
+
+.input-text {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.form-row-last {
+  text-align: center;
+}
+
+.register {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  color: #777;
+}
+
+.fa-stack {
+  margin: 0 10px;
+  color: #6c757d;
+}
+
+.fa-stack:hover {
+  color: #007bff;
+}
